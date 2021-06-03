@@ -50,6 +50,9 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 3006,
+    historyApiFallback: true,
+    contentBase: './',
+    hot: true
 },
   
   // add a custom index.html as the template
