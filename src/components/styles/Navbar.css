@@ -1,0 +1,42 @@
+.Navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#067bc2;
+    padding: 20px; 
+    box-shadow: 5px 0px 8px 10px #888888;
+    z-index: 9;
+}
+
+
+.Navbar-title  {
+    align-self: flex-start;
+    color: white;
+    font-family: 'Bungee', cursive;
+    
+}
+
+.Navbar-title:hover {
+    color: #8bd3f8;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Suez One', serif;
+    color: white;
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #8bd3f8;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 26px;
+    }
+  }

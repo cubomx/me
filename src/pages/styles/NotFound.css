@@ -1,0 +1,38 @@
+.NotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.NotFound * {
+    color: #ef2d56;
+    font-family: 'Bungee', cursive;
+}
+
+.NotFound-title {
+    font-size: 40px;
+}
+
+.NotFound-message {
+    font-size: 30px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .NotFound-title {
+        font-size: 30px;
+    }
+    
+    .NotFound-message {
+        font-size: 20px;
+    }
+  }
+
+
