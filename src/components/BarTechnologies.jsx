@@ -27,7 +27,7 @@ const BarTechnologies = ( ) => {
     if ( skills ){
         return (
             <div className="BarTechnologies">
-                <h1 className="BarTechnologies-title">Tecnologies</h1>
+                <h1 className="BarTechnologies-title">Technologies</h1>
                 <div className="BarTechnologies-container">
                 { skills.tech && skills.tech.map( (skill, index) => {
                     return (
