@@ -13,9 +13,6 @@ const BarTechnologies = ( ) => {
                 if ( doc.exists ){
                     const skillsRetrieved = doc.data( );
                     setSkills(skills => skillsRetrieved );
-                    skillsRetrieved.tech.map( (skill) => {
-                        console.log( skill );
-                    })
                 }
             })
     }

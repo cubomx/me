@@ -11,6 +11,12 @@ const About = ( ) => {
                 <i className="devicon-webpack-plain" /> 
                 <i className="devicon-firebase-plain-wordmark" /> 
             </div>
+            <h1>
+                Code repository
+            </h1>
+            <a className="About-link" href="https://github.com/cubomx/me" target="_blank">
+                <i className="devicon-github-original-wordmark"></i>
+            </a>
         </div>
         
     )
