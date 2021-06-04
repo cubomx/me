@@ -4,6 +4,7 @@ import Layout from '../components/Layout.jsx';
 // pages
 import Home from './Home.jsx';
 import NotFound from './NotFound.jsx';
+import About from './About.jsx';
 
 const App =  ( ) => {
     return (
@@ -11,6 +12,7 @@ const App =  ( ) => {
             <Layout>
                 <Switch>
                     <Route exact path="/" component={ Home }/>
+                    <Route exact path="/about" component={ About }/>
                     <Route   component={ NotFound } />
                 </Switch>
             </Layout>
