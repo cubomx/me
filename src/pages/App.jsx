@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Layout from '../components/Layout.jsx';
 // pages
 import Home from './Home.jsx';
+import Projects from './Projects.jsx';
 import NotFound from './NotFound.jsx';
 import About from './About.jsx';
 
@@ -13,6 +14,7 @@ const App =  ( ) => {
                 <Switch>
                     <Route exact path="/" component={ Home }/>
                     <Route exact path="/about" component={ About }/>
+                    <Route exact path="/projects" component={Projects}/>
                     <Route   component={ NotFound } />
                 </Switch>
             </Layout>

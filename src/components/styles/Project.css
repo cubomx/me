@@ -1,0 +1,49 @@
+.Project p {
+    text-align: justify;
+}
+
+.Project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.Project * {
+ margin: 5px;
+}
+
+.Project-img {
+    width: 426px;
+    overflow: hidden;
+}
+
+.Project-info {
+    width: calc(100% - 426px);
+}
+
+.Project-img img {
+    width: 426px;
+    height: 240px;
+    object-fit: cover;
+    transition: all .2s ease;
+}
+
+.Project-img img:hover {
+    transform: scale(1.5);
+}
+
+.Project p, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 800px)  {
+
+    .Project {
+        flex-wrap: wrap;
+        
+    }
+    .Project-info {
+        width: 100%;
+    }
+}
