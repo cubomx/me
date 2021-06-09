@@ -26,12 +26,14 @@
     width: 426px;
     height: 240px;
     object-fit: cover;
-    transition: all .2s ease;
+    transition: all .5s ease;
 }
 
 .Project-img img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
+    
 }
+
 
 .Project p, li {
     font-family: 'Raleway', sans-serif;

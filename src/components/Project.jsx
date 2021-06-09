@@ -5,13 +5,13 @@ import { Storage }  from '../config/firebase.js';
 import './styles/Project.css';
 
 const Project = ( props ) => {
-    const { title, description, img, year, technologies } = props.data;
+    const { title, description, img, year, technologies, url } = props.data;
     const [image, setImage] = useState('');
 
     useEffect( ( ) => {
         Storage.ref(img).getDownloadURL()
-        .then( ( url ) => {
-            setImage( url );
+        .then( ( link ) => {
+            setImage( link );
         })
         .catch( ( err ) => {
             console.error( err );
@@ -21,7 +21,9 @@ const Project = ( props ) => {
     return (
         <div className="Project">
             <div className="Project-img">
+                <a href={url} target="_blank"> 
                 <img src={image} alt={title + " image"} />
+                </a>
             </div>
             
             <div className="Project-info">
