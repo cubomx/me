@@ -1,0 +1,25 @@
+.Contact-info {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Contact-info i {
+    font-size: 5em;
+    color: #067bc2;
+}
+
+.Contact-info i:hover {
+    color: gray;
+}
+
+.Contact-info i:active {
+    color: #8bd3f8;
+}
+
+.Contact-info a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
